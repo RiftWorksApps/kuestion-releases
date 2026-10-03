@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "version": "2.2.0",
+  "released_at": "2026-10-03T20:29:12Z",
+  "download_url": "https://github.com/RiftWorksApps/kuestion-releases/releases/latest/download/Kuestion.apk",
+  "title": "Kuestion for Android",
+  "description": "The Rift Works exam app. Students sit the exams their teacher assigned and practise as often as they like; solo users build their own question banks and mock papers; examiners read their cohort's results on the go.",
+  "details": [
+    { "key": "version", "label": "Version", "value": "2.2.0" },
+    { "key": "released", "label": "Released", "value": "3 October 2026" },
+    { "key": "file", "label": "File", "value": "Kuestion.apk" },
+    { "key": "size", "label": "Size", "value": "2.1 MB" },
+    { "key": "works_on", "label": "Works on", "value": "Android 8.0 or newer, phones and tablets" },
+    { "key": "publisher", "label": "Publisher", "value": "Rift Works" },
+    { "key": "package", "label": "Package name", "value": "tech.riftworks.kuestion" },
+    { "key": "permissions", "label": "Permissions", "value": "Internet access, and permission to install its own updates. No camera, location, contacts, files or notifications" },
+    { "key": "account", "label": "Account needed", "value": "A Rift Works account, or a student login from your school" }
+  ],
+  "whats_new": {
+    "heading": "What's new in 2.2.0",
+    "items": [
+      "Update check: the app now tells you when a new version is available and installs it with a tap.",
+      "Noticeboard: a megaphone button shows planned maintenance, incidents and product updates. It never interrupts an exam."
+    ]
+  },
+  "install": {
+    "heading": "How to install",
+    "steps": [
+      "Tap Download, then open the file when it finishes.",
+      "If your phone asks, allow your browser to \"install unknown apps\". This is asked once.",
+      "Tap Install. If you already have Kuestion, this updates it and keeps your data."
+    ]
+  },
+  "verify": {
+    "heading": "Verify your download (optional)",
+    "items": [
+      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "f862e75d218f0ff5393ee501ed4aef75ed9df1b06258b7b97eead4df6bd6f5eb" },
+      { "key": "certificate_sha256", "label": "Signing certificate (SHA-256)", "value": "E2:54:98:6E:9E:D9:59:57:C6:19:15:8C:12:35:82:81:9C:07:42:44:70:BB:B6:C1:4F:3F:0C:1E:5E:C6:58:53" }
+    ],
+    "note": "The file checksum changes with every release; the signing certificate stays the same."
+  }
+}
