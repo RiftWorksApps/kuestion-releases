@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "2.5.0",
-  "released_at": "2026-10-04T16:37:24Z",
+  "version": "2.5.1",
+  "released_at": "2026-10-04T17:55:26Z",
   "download_url": "https://github.com/RiftWorksApps/kuestion-releases/releases/latest/download/Kuestion.apk",
   "title": "Kuestion for Android",
   "description": "The Rift Works exam app. Students sit the exams their teacher assigned and practise as often as they like; solo users build their own question banks and mock papers; examiners read their cohort's results on the go.",
   "details": [
-    { "key": "version", "label": "Version", "value": "2.5.0" },
+    { "key": "version", "label": "Version", "value": "2.5.1" },
     { "key": "released", "label": "Released", "value": "4 October 2026" },
     { "key": "file", "label": "File", "value": "Kuestion.apk" },
     { "key": "size", "label": "Size", "value": "2.1 MB" },
@@ -17,11 +17,11 @@
     { "key": "account", "label": "Account needed", "value": "A Rift Works account, or a student login from your school" }
   ],
   "whats_new": {
-    "heading": "What's new in 2.5.0",
+    "heading": "What's new in 2.5.1",
     "items": [
-      "Topic strengths: open a module to see its topics, with the weakest one named. Topics appear for question banks that carry them; older banks show the module as before.",
-      "The AI prompt now asks for a topic on every question and lists the topic names you already use, so the same topic is not spelled two ways.",
-      "Importing an AI reply checks that every question names its topic."
+      "Remember me: sign in once on the Sign in tab and stay signed in on this device for 30 days. Not offered to students.",
+      "Remember me is safer on a poor connection: a dropped connection can no longer lock your account. If one drops at the wrong moment, the app asks for your password instead.",
+      "If an account has been locked for its own protection, the app now says so and tells you how to unlock it."
     ]
   },
   "install": {
@@ -35,7 +35,7 @@
   "verify": {
     "heading": "Verify your download (optional)",
     "items": [
-      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "a876ca3790018db3c06c9a522e377b106537cab9fd7070e54aea75ef1f17aa01" },
+      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "d184766b456ee3ed697f10c5fcca513a5e5803c24961809f2f37a22515f10565" },
       { "key": "certificate_sha256", "label": "Signing certificate (SHA-256)", "value": "E2:54:98:6E:9E:D9:59:57:C6:19:15:8C:12:35:82:81:9C:07:42:44:70:BB:B6:C1:4F:3F:0C:1E:5E:C6:58:53" }
     ],
     "note": "The file checksum changes with every release; the signing certificate stays the same."
