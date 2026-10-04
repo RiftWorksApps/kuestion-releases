@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "version": "2.2.0",
-  "released_at": "2026-10-03T20:29:12Z",
+  "version": "2.3.0",
+  "released_at": "2026-10-04T13:25:07Z",
   "download_url": "https://github.com/RiftWorksApps/kuestion-releases/releases/latest/download/Kuestion.apk",
   "title": "Kuestion for Android",
   "description": "The Rift Works exam app. Students sit the exams their teacher assigned and practise as often as they like; solo users build their own question banks and mock papers; examiners read their cohort's results on the go.",
   "details": [
-    { "key": "version", "label": "Version", "value": "2.2.0" },
-    { "key": "released", "label": "Released", "value": "3 October 2026" },
+    { "key": "version", "label": "Version", "value": "2.3.0" },
+    { "key": "released", "label": "Released", "value": "4 October 2026" },
     { "key": "file", "label": "File", "value": "Kuestion.apk" },
     { "key": "size", "label": "Size", "value": "2.1 MB" },
     { "key": "works_on", "label": "Works on", "value": "Android 8.0 or newer, phones and tablets" },
@@ -17,10 +17,13 @@
     { "key": "account", "label": "Account needed", "value": "A Rift Works account, or a student login from your school" }
   ],
   "whats_new": {
-    "heading": "What's new in 2.2.0",
+    "heading": "What's new in 2.3.0",
     "items": [
-      "Update check: the app now tells you when a new version is available and installs it with a tap.",
-      "Noticeboard: a megaphone button shows planned maintenance, incidents and product updates. It never interrupts an exam."
+      "Import questions written by an AI assistant: in the template editor, paste the assistant's reply or choose the saved file. It is checked first, then added to your template as a question bank.",
+      "Topic strengths for solo users: a new screen shows how strong you are in each module.",
+      "Uploading a question bank now tells you straight away whether it was accepted.",
+      "Students: the message shown when you leave an exam now says clearly what happens if time runs out — the exam is submitted with the answers you have given.",
+      "The app now tells Rift Works your phone's time zone, so emails and reports can show the right local time."
     ]
   },
   "install": {
@@ -34,7 +37,7 @@
   "verify": {
     "heading": "Verify your download (optional)",
     "items": [
-      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "f862e75d218f0ff5393ee501ed4aef75ed9df1b06258b7b97eead4df6bd6f5eb" },
+      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "fc8643ccab172cdc9eaf824f1a8f422f391059a339d8b994cf33f3ab87d21de7" },
       { "key": "certificate_sha256", "label": "Signing certificate (SHA-256)", "value": "E2:54:98:6E:9E:D9:59:57:C6:19:15:8C:12:35:82:81:9C:07:42:44:70:BB:B6:C1:4F:3F:0C:1E:5E:C6:58:53" }
     ],
     "note": "The file checksum changes with every release; the signing certificate stays the same."
