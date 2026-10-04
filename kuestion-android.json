@@ -1,12 +1,12 @@
 {
   "schema": 1,
-  "version": "2.3.0",
-  "released_at": "2026-10-04T13:25:07Z",
+  "version": "2.4.0",
+  "released_at": "2026-10-04T15:52:17Z",
   "download_url": "https://github.com/RiftWorksApps/kuestion-releases/releases/latest/download/Kuestion.apk",
   "title": "Kuestion for Android",
   "description": "The Rift Works exam app. Students sit the exams their teacher assigned and practise as often as they like; solo users build their own question banks and mock papers; examiners read their cohort's results on the go.",
   "details": [
-    { "key": "version", "label": "Version", "value": "2.3.0" },
+    { "key": "version", "label": "Version", "value": "2.4.0" },
     { "key": "released", "label": "Released", "value": "4 October 2026" },
     { "key": "file", "label": "File", "value": "Kuestion.apk" },
     { "key": "size", "label": "Size", "value": "2.1 MB" },
@@ -17,13 +17,15 @@
     { "key": "account", "label": "Account needed", "value": "A Rift Works account, or a student login from your school" }
   ],
   "whats_new": {
-    "heading": "What's new in 2.3.0",
+    "heading": "What's new in 2.4.0",
     "items": [
-      "Import questions written by an AI assistant: in the template editor, paste the assistant's reply or choose the saved file. It is checked first, then added to your template as a question bank.",
-      "Topic strengths for solo users: a new screen shows how strong you are in each module.",
-      "Uploading a question bank now tells you straight away whether it was accepted.",
-      "Students: the message shown when you leave an exam now says clearly what happens if time runs out — the exam is submitted with the answers you have given.",
-      "The app now tells Rift Works your phone's time zone, so emails and reports can show the right local time."
+      "Topic strengths now shows your results. It was empty in 2.3.0.",
+      "Exams open full screen, so nothing else on the device gets in the way.",
+      "Pause: in your own (solo) exams you can stop the clock and come back. Pauses are shown on your result and in History.",
+      "Check for updates: a new button in the menu. The app also checks by itself every hour instead of once a day.",
+      "Results are easier to read: each answer shows what you chose and, where you were wrong, the correct answer in words.",
+      "Choosing a question file now lists JSON files only.",
+      "Examiners: the cohort list shows each student's sittings and average score."
     ]
   },
   "install": {
@@ -37,7 +39,7 @@
   "verify": {
     "heading": "Verify your download (optional)",
     "items": [
-      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "fc8643ccab172cdc9eaf824f1a8f422f391059a339d8b994cf33f3ab87d21de7" },
+      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "8eb8e5603d85f235fde0b0f125114704414427eea05abd2586e36cb334248a80" },
       { "key": "certificate_sha256", "label": "Signing certificate (SHA-256)", "value": "E2:54:98:6E:9E:D9:59:57:C6:19:15:8C:12:35:82:81:9C:07:42:44:70:BB:B6:C1:4F:3F:0C:1E:5E:C6:58:53" }
     ],
     "note": "The file checksum changes with every release; the signing certificate stays the same."
