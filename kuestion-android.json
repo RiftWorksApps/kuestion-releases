@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "version": "2.6.0",
-  "released_at": "2026-11-20T06:47:21Z",
+  "version": "2.7.0",
+  "released_at": "2026-11-27T08:41:03Z",
   "download_url": "https://github.com/RiftWorksApps/kuestion-releases/releases/latest/download/Kuestion.apk",
   "title": "Kuestion for Android",
   "description": "The Rift Works exam app. Students sit the exams their teacher assigned and practise as often as they like; solo users build their own question banks and mock papers; examiners read their cohort's results on the go.",
   "details": [
-    { "key": "version", "label": "Version", "value": "2.6.0" },
-    { "key": "released", "label": "Released", "value": "20 November 2026" },
+    { "key": "version", "label": "Version", "value": "2.7.0" },
+    { "key": "released", "label": "Released", "value": "27 November 2026" },
     { "key": "file", "label": "File", "value": "Kuestion.apk" },
-    { "key": "size", "label": "Size", "value": "2.1 MB" },
+    { "key": "size", "label": "Size", "value": "2.2 MB" },
     { "key": "works_on", "label": "Works on", "value": "Android 8.0 or newer, phones and tablets" },
     { "key": "publisher", "label": "Publisher", "value": "Rift Works" },
     { "key": "package", "label": "Package name", "value": "tech.riftworks.kuestion" },
@@ -17,12 +17,11 @@
     { "key": "account", "label": "Account needed", "value": "A Rift Works account, or a student login from your school" }
   ],
   "whats_new": {
-    "heading": "What's new in 2.6.0",
+    "heading": "What's new in 2.7.0",
     "items": [
-      "Questions that ask you to choose two or more answers now work, with a live counter.",
-      "Command output and configuration shown with a question appear in a scrollable exhibit box with a full-screen view.",
-      "The review page lists questions you only half answered.",
-      "The AI prompt now comes from the server and needs only your PDF."
+      "Exhibit pictures now show with a question and open full screen with zoom.",
+      "New template option: Shuffle answer lines.",
+      "The AI prompt for building a bank from a PDF is updated."
     ]
   },
   "install": {
@@ -36,7 +35,7 @@
   "verify": {
     "heading": "Verify your download (optional)",
     "items": [
-      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "b4a2755e204dc859719137624c503f04757ab6a3465a4642b8ce265ce6e32c81" },
+      { "key": "file_sha256", "label": "File checksum (SHA-256)", "value": "70a73cb0a8941f4686c915586c0044cc959e40cd7cd06ef71e80780252ebf5f1" },
       { "key": "certificate_sha256", "label": "Signing certificate (SHA-256)", "value": "E2:54:98:6E:9E:D9:59:57:C6:19:15:8C:12:35:82:81:9C:07:42:44:70:BB:B6:C1:4F:3F:0C:1E:5E:C6:58:53" }
     ],
     "note": "The file checksum changes with every release; the signing certificate stays the same."
